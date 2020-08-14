@@ -408,7 +408,7 @@
             this.btnThemCTHD.Appearance.Options.UseTextOptions = true;
             this.btnThemCTHD.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.btnThemCTHD.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnThemCTHD.ImageOptions.Image = global::QL_Vat_Lieu_Xay_Dung_WinFormApp.Properties.Resources.add_32x322;
+            this.btnThemCTHD.ImageOptions.Image = global::QL_Vat_Lieu_Xay_Dung_WinFormApp.Properties.Resources.add_32x32;
             this.btnThemCTHD.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.TopCenter;
             this.btnThemCTHD.Location = new System.Drawing.Point(7, 20);
             this.btnThemCTHD.Margin = new System.Windows.Forms.Padding(3, 20, 3, 30);

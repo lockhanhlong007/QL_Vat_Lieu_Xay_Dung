@@ -656,7 +656,6 @@ namespace QL_Vat_Lieu_Xay_Dung_Data_EF
                 var user = await _userManager.FindByNameAsync("admin");
                 await _userManager.AddToRoleAsync(user, "Admin");
             }
-
         }
     }
 }

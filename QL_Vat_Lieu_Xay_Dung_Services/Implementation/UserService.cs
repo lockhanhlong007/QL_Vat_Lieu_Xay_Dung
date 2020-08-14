@@ -18,6 +18,7 @@ namespace QL_Vat_Lieu_Xay_Dung_Services.Implementation
     public class UserService : IUserService
     {
         private readonly UserManager<AppUser> _userManager;
+
         private readonly IRepository<Announcement, string> _announceRepository;
 
         private readonly IRepository<AnnouncementUser, int> _announceUserRepository;
@@ -68,7 +69,7 @@ namespace QL_Vat_Lieu_Xay_Dung_Services.Implementation
         public async Task<List<string>> GetRoleByUser(AppUserViewModel userViewModel)
         {
             var user = await _userManager.FindByNameAsync(userViewModel.UserName);
-            return (List<string>) await  _userManager.GetRolesAsync(user);
+            return (List<string>)await _userManager.GetRolesAsync(user);
         }
 
         public async Task<bool> AddAsync(AnnouncementViewModel announcementViewModel, List<AnnouncementUserViewModel> announcementUsers, AppUserViewModel userViewModel)
@@ -132,7 +133,7 @@ namespace QL_Vat_Lieu_Xay_Dung_Services.Implementation
                     user.BirthDay = DateTime.ParseExact(userViewModel.BirthDay, "dd/MM/yyyy",
                         CultureInfo.InvariantCulture);
                 }
-             
+
                 await _userManager.UpdateAsync(user);
                 // Real Time
                 var announcement = _mapper.Map<AnnouncementViewModel, Announcement>(announcementViewModel);

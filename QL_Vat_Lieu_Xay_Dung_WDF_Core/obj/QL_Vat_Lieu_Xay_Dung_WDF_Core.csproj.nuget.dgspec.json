@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
@@ -28,7 +28,7 @@
           "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -39,7 +39,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -47,27 +47,27 @@
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration.FileExtensions": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.5.0, )"
+              "version": "[4.8.2, )"
             }
           },
           "imports": [
@@ -104,7 +104,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
@@ -113,7 +113,7 @@
           "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
               "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj": {
                 "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj"
@@ -128,33 +128,33 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             }
           },
           "imports": [
@@ -191,7 +191,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
@@ -200,7 +200,7 @@
           "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
               "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj": {
                 "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj"
@@ -221,7 +221,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -229,25 +229,25 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration.FileExtensions": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             }
           },
           "imports": [
@@ -284,7 +284,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
@@ -293,7 +293,7 @@
           "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -304,7 +304,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -339,7 +339,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
@@ -348,7 +348,7 @@
           "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
               "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj": {
                 "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj"
@@ -369,7 +369,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -381,7 +381,7 @@
             },
             "Microsoft.AspNetCore.Authorization": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             }
           },
           "imports": [
@@ -418,7 +418,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
@@ -427,7 +427,7 @@
           "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -438,7 +438,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -473,7 +473,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
@@ -482,7 +482,7 @@
           "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
               "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj": {
                 "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj"
@@ -512,7 +512,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -616,7 +616,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.CSharp": {
               "target": "Package",
@@ -624,91 +624,91 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Abstractions": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Hosting.Abstractions": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Options": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Primitives": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.NETCore.Platforms": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.2, )"
             },
             "Microsoft.Windows.Compatibility": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.1, )"
             },
             "System.Runtime": {
               "target": "Package",

@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
@@ -28,7 +28,7 @@
           "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -39,7 +39,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -47,27 +47,27 @@
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration.FileExtensions": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.7, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.5.0, )"
+              "version": "[4.8.2, )"
             }
           },
           "imports": [

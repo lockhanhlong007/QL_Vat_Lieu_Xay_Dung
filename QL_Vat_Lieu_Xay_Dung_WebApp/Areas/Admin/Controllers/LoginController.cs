@@ -32,7 +32,6 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp.Areas.Admin.Controllers
             return View();
         }
 
-        
         #region Get Data API
 
         [HttpPost]
@@ -72,7 +71,7 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp.Areas.Admin.Controllers
                 }
 
                 _logger.LogInformation("Username does not exist.");
-                return new OkObjectResult(new GenericResult(false,"Username không tồn tại"));
+                return new OkObjectResult(new GenericResult(false, "Username không tồn tại"));
             }
 
             // If we got this far, something failed, redisplay form

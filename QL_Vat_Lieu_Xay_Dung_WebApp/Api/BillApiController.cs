@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using QL_Vat_Lieu_Xay_Dung_Data.Enums;
 using QL_Vat_Lieu_Xay_Dung_Services.Interfaces;
@@ -6,9 +7,7 @@ using QL_Vat_Lieu_Xay_Dung_Services.ViewModels.Enum;
 using QL_Vat_Lieu_Xay_Dung_Services.ViewModels.Product;
 using QL_Vat_Lieu_Xay_Dung_Utilities.Extensions;
 using System;
-using System.IO;
 using System.Linq;
-using Microsoft.AspNetCore.Hosting;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -18,6 +17,7 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp.Api
     public class BillApiController : ApiController
     {
         private readonly IBillService _billService;
+
         private readonly IWebHostEnvironment _webHostingEnvironment;
 
         public BillApiController(IBillService billService, IWebHostEnvironment webHostingEnvironment)
@@ -62,10 +62,10 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp.Api
         [Route("PaymentMethod")]
         public IActionResult GetPaymentMethod()
         {
-            var enums = ((PaymentMethod[]) Enum.GetValues(typeof(PaymentMethod)))
+            var enums = ((PaymentMethod[])Enum.GetValues(typeof(PaymentMethod)))
                 .Select(p => new EnumModel()
                 {
-                    Value = (int) p,
+                    Value = (int)p,
                     Name = p.GetDescription()
                 }).ToList();
             return new OkObjectResult(enums);
@@ -75,10 +75,10 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp.Api
         [Route("BillStatus")]
         public IActionResult GetBillStatus()
         {
-            var enums = ((BillStatus[]) Enum.GetValues(typeof(BillStatus)))
+            var enums = ((BillStatus[])Enum.GetValues(typeof(BillStatus)))
                 .Select(b => new EnumModel()
                 {
-                    Value = (int) b,
+                    Value = (int)b,
                     Name = b.GetDescription()
                 }).ToList();
             return new OkObjectResult(enums);

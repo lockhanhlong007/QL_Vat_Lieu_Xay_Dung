@@ -661,7 +661,7 @@
             this.btnThem.Appearance.Options.UseTextOptions = true;
             this.btnThem.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
             this.btnThem.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnThem.ImageOptions.Image = global::QL_Vat_Lieu_Xay_Dung_WDF_Core.Properties.Resources.add_32x322;
+            this.btnThem.ImageOptions.Image = global::QL_Vat_Lieu_Xay_Dung_WDF_Core.Properties.Resources.add_32x32;
             this.btnThem.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
             this.btnThem.Location = new System.Drawing.Point(20, -3);
             this.btnThem.Margin = new System.Windows.Forms.Padding(20, 3, 20, 3);

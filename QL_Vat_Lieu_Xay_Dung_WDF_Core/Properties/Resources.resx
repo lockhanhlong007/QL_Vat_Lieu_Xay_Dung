@@ -163,31 +163,6 @@
   <data name="add_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\add_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add_32x321" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add_32x321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boorder_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-	  <value>..\Resources\boorder_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boorder_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-	  <value>..\Resources\boorder_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boproductgroup_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-	  <value>..\Resources\boproductgroup_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boproductgroup_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-	  <value>..\Resources\boproductgroup_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="add_32x3211" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\add_32x321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="add_32x322" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\add_32x322.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="backward_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\backward_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-
   <data name="boorder_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boorder_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -199,6 +174,9 @@
   </data>
   <data name="boproductgroup_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boproductgroup_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backward_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backward_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="brand1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\brand1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,7 +207,6 @@
   </data>
   <data name="brand9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\brand9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-
   </data>
   <data name="cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

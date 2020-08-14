@@ -377,7 +377,7 @@ namespace QL_Vat_Lieu_Xay_Dung_Services.Implementation
             }
         }
 
-        #endregion MyRegion
+        #endregion RealTime
 
         public List<ProductImageViewModel> GetImages(int productId)
         {
