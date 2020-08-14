@@ -1,0 +1,741 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_WDF_Core\\QL_Vat_Lieu_Xay_Dung_WDF_Core.csproj": {}
+  },
+  "projects": {
+    "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj",
+        "projectName": "QL_Vat_Lieu_Xay_Dung_Dapper",
+        "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj",
+        "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj",
+        "projectName": "QL_Vat_Lieu_Xay_Dung_Data",
+        "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj",
+        "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj": {
+                "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj",
+        "projectName": "QL_Vat_Lieu_Xay_Dung_Data_EF",
+        "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj",
+        "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj": {
+                "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj"
+              },
+              "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj": {
+                "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj"
+              },
+              "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj": {
+                "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj",
+        "projectName": "QL_Vat_Lieu_Xay_Dung_Infrastructure",
+        "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Services\\QL_Vat_Lieu_Xay_Dung_Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Services\\QL_Vat_Lieu_Xay_Dung_Services.csproj",
+        "projectName": "QL_Vat_Lieu_Xay_Dung_Services",
+        "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Services\\QL_Vat_Lieu_Xay_Dung_Services.csproj",
+        "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj": {
+                "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj"
+              },
+              "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj": {
+                "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj"
+              },
+              "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj": {
+                "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj",
+        "projectName": "QL_Vat_Lieu_Xay_Dung_Utilities",
+        "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj",
+        "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_WDF_Core\\QL_Vat_Lieu_Xay_Dung_WDF_Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_WDF_Core\\QL_Vat_Lieu_Xay_Dung_WDF_Core.csproj",
+        "projectName": "QL_Vat_Lieu_Xay_Dung_WDF_Core",
+        "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_WDF_Core\\QL_Vat_Lieu_Xay_Dung_WDF_Core.csproj",
+        "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_WDF_Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj": {
+                "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj"
+              },
+              "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj": {
+                "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj"
+              },
+              "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj": {
+                "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj"
+              },
+              "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj": {
+                "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj"
+              },
+              "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Services\\QL_Vat_Lieu_Xay_Dung_Services.csproj": {
+                "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Services\\QL_Vat_Lieu_Xay_Dung_Services.csproj"
+              },
+              "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj": {
+                "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "DevExpress.AspNetCore.Common": {
+              "target": "Package",
+              "version": "[20.1.3, )"
+            },
+            "DevExpress.AspNetCore.Core": {
+              "target": "Package",
+              "version": "[20.1.3, )"
+            },
+            "DevExpress.WindowsDesktop.Charts": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.Charts.Core": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.CodeParser": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.Data": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.DataAccess": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.DataDesktop": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.Dialogs.Core": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.Images": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.Mvvm": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.Office.Core": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.Pdf.Core": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.PivotGrid.Core": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.Printing.Core": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.RichEdit.Core": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.RichEdit.Export": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.Sparkline.Core": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.Spreadsheet.Core": {
+              "target": "Package",
+              "version": "[20.1.4, )"
+            },
+            "DevExpress.WindowsDesktop.Win": {
+              "target": "Package",
+              "version": "[20.1.4-ctp, )"
+            },
+            "DevExpress.WindowsDesktop.Win.Reporting": {
+              "target": "Package",
+              "version": "[20.1.4-ctp, )"
+            },
+            "DevExpress.WindowsDesktop.Win.SchedulerReporting": {
+              "target": "Package",
+              "version": "[20.1.4-ctp, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Extensions.Primitives": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
