@@ -2,6 +2,7 @@
 using QL_Vat_Lieu_Xay_Dung_Services.ViewModels.Product;
 using QL_Vat_Lieu_Xay_Dung_Services.ViewModels.System;
 using QL_Vat_Lieu_Xay_Dung_Utilities.Dtos;
+using System;
 using System.Collections.Generic;
 
 namespace QL_Vat_Lieu_Xay_Dung_Services.Interfaces
@@ -24,6 +25,8 @@ namespace QL_Vat_Lieu_Xay_Dung_Services.Interfaces
         GenericResult DeleteDetail(int productId, int billId, int sizeId);
 
         GenericResult UpdateStatus(int orderId, BillStatus status);
+
+        List<BillViewModel> GetAllBillByUserId(Guid userId);
 
         #region Realtime
 

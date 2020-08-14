@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using QL_Vat_Lieu_Xay_Dung_Data.Entities;
 using QL_Vat_Lieu_Xay_Dung_Utilities.Dtos;
 using QL_Vat_Lieu_Xay_Dung_WebApp.Models.AccountViewModels;
@@ -26,6 +27,12 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp.Api
         {
             _userManager = userManager;
             _hostingEnvironment = hostingEnvironment;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            return new OkObjectResult(await _userManager.Users.AsNoTracking().ToListAsync());
         }
 
         /// <summary>

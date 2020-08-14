@@ -141,6 +141,11 @@ namespace QL_Vat_Lieu_Xay_Dung_Services.Implementation
             }
         }
 
+        public List<BillViewModel> GetAllBillByUserId(Guid userId)
+        {
+            return _mapper.ProjectTo<BillViewModel>(_orderRepository.FindAll(x => x.CustomerId == userId)).ToList();
+        }
+
         public GenericResult Create(BillViewModel billViewModel)
         {
             try

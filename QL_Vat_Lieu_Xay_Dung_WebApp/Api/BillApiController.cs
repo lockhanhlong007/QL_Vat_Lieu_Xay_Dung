@@ -59,6 +59,29 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp.Api
         }
 
         [HttpGet]
+        public IActionResult GetBillByUser(Guid userId)
+        {
+            if (!ModelState.IsValid)
+            {
+                var allErrors = ModelState.Values.SelectMany(v => v.Errors);
+                return new BadRequestObjectResult(allErrors);
+            }
+            return new OkObjectResult(_billService.GetAllBillByUserId(userId));
+        }
+
+        [HttpPut]
+        [Route("bill-{orderId}-s-{status}")]
+        public IActionResult PutBillStatus(int orderId, BillStatus status)
+        {
+            if (!ModelState.IsValid)
+            {
+                var allErrors = ModelState.Values.SelectMany(v => v.Errors);
+                return new BadRequestObjectResult(allErrors);
+            }
+            return new OkObjectResult(_billService.UpdateStatus(orderId, status));
+        }
+
+        [HttpGet]
         [Route("PaymentMethod")]
         public IActionResult GetPaymentMethod()
         {
