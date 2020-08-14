@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f970gQmQtS6OW94Y/lGT9IWo5qSGhuPB41VR6+tbFccxvpvEhJcVMuro3QLizCk8JckhRzKfVfZ3L6W/vycOiA==",
+  "dgSpecHash": "i1T1SenqNGF3A3xsfFYGTDExtX0NiXPyYVW7QxRvKG4M8QjeIhSc/fyUxN7loJ1BVeSaBDaTJ0t25ruZFgwy0w==",
   "success": true,
-  "projectFilePath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj",
+  "projectFilePath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lockh\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\lockh\\.nuget\\packages\\microsoft.extensions.configuration\\3.0.3\\microsoft.extensions.configuration.3.0.3.nupkg.sha512",

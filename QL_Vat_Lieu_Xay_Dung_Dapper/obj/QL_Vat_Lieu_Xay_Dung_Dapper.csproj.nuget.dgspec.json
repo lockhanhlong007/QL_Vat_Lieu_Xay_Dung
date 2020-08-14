@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj": {}
+    "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj": {}
   },
   "projects": {
-    "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj": {
+    "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj",
+        "projectUniqueName": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj",
         "projectName": "QL_Vat_Lieu_Xay_Dung_Dapper",
-        "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj",
+        "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj",
         "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\obj\\",
+        "outputPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",

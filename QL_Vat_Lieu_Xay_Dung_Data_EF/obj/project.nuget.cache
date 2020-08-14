@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IpEM9TPXCK/Wnb7TUXdXPJEl/c8Jt6rX8MniDidF+Yrm/4hwbbCqVYJ6262LXNlyiT0FG3a3MJffGwOSO9kgYA==",
+  "dgSpecHash": "YLAYbMrssoD+yOEDfxJFt7Im0JWZU5TT3Ar9TwHAYI9HPX/BI2IFfIqx8Mx599k4LcuAJIYPr3WUsSZlt2N7Kg==",
   "success": true,
-  "projectFilePath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj",
+  "projectFilePath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lockh\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\lockh\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

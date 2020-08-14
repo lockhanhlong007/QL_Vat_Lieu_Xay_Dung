@@ -11793,11 +11793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_WDF_Core\\QL_Vat_Lieu_Xay_Dung_WDF_Core.csproj",
+      "projectUniqueName": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_WDF_Core\\QL_Vat_Lieu_Xay_Dung_WDF_Core.csproj",
       "projectName": "QL_Vat_Lieu_Xay_Dung_WDF_Core",
-      "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_WDF_Core\\QL_Vat_Lieu_Xay_Dung_WDF_Core.csproj",
+      "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_WDF_Core\\QL_Vat_Lieu_Xay_Dung_WDF_Core.csproj",
       "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
-      "outputPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_WDF_Core\\obj\\",
+      "outputPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_WDF_Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11816,23 +11816,23 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj": {
-              "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj"
+            "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj": {
+              "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj"
             },
-            "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj": {
-              "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj"
+            "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj": {
+              "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj"
             },
-            "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj": {
-              "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj"
+            "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj": {
+              "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj"
             },
-            "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj": {
-              "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj"
+            "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj": {
+              "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj"
             },
-            "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Services\\QL_Vat_Lieu_Xay_Dung_Services.csproj": {
-              "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Services\\QL_Vat_Lieu_Xay_Dung_Services.csproj"
+            "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Services\\QL_Vat_Lieu_Xay_Dung_Services.csproj": {
+              "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Services\\QL_Vat_Lieu_Xay_Dung_Services.csproj"
             },
-            "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj": {
-              "projectPath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj"
+            "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj": {
+              "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj"
             }
           }
         }

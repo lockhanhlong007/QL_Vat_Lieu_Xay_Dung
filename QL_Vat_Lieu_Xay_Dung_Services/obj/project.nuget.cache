@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mRgCVh4/xH5KGTauy/KVC0Eza5op0MeMck8E2OFxAbyCeZAo97fbBkS4y2RDwYzYAj7FDRsEgHoctk6n/8DnNg==",
+  "dgSpecHash": "qhztoDB6QpANKOj8lZwDDV4+6VChpnEhkzHHGeJqec6yR8wJOYW3mLt2nmn0iFsenvSnWqzxZUKXKVVM/VmVyA==",
   "success": true,
-  "projectFilePath": "D:\\Learning_Code\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Services\\QL_Vat_Lieu_Xay_Dung_Services.csproj",
+  "projectFilePath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Services\\QL_Vat_Lieu_Xay_Dung_Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lockh\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\lockh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
