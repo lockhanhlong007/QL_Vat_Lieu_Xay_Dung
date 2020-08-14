@@ -58,7 +58,7 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp.Api
             return new OkObjectResult(billViewModel);
         }
 
-        [HttpGet]
+        [HttpGet("bill-u-{userId}")]
         public IActionResult GetBillByUser(Guid userId)
         {
             if (!ModelState.IsValid)
