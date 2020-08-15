@@ -468,3 +468,4 @@ D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WinFormApp\obj\Debug\QL_
 D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WinFormApp\obj\Debug\QL_Vat_Lieu_Xay_Dung_WinFormApp.csproj.CopyComplete
 D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WinFormApp\obj\Debug\QL_Vat_Lieu_Xay_Dung_WinFormApp.exe
 D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WinFormApp\obj\Debug\QL_Vat_Lieu_Xay_Dung_WinFormApp.pdb
+D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WinFormApp\obj\Debug\QL_Vat_Lieu_Xay_Dung_WinFormApp.csprojAssemblyReference.cache

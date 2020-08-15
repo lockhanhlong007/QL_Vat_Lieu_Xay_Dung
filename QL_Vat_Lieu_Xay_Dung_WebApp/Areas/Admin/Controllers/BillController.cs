@@ -21,9 +21,9 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp.Areas.Admin.Controllers
     [Authorize]
     public class BillController : Controller
     {
-        private readonly IAuthorizationService _authorizationService;
-
         private readonly IBillService _billService;
+
+        private readonly IAuthorizationService _authorizationService;
 
         private readonly IHubContext<QLVLXD_Hub> _hubContext;
 

@@ -14,7 +14,7 @@ namespace QL_Vat_Lieu_Xay_Dung_Services.AutoMapper
             #region Domain To ViewModel
 
             CreateMap<ProductCategory, ProductCategoryViewModel>();
-
+            CreateMap<Page, PageViewModel>();
             CreateMap<Product, ProductViewModel>();
 
             CreateMap<AppUser, AppUserViewModel>();
@@ -48,6 +48,9 @@ namespace QL_Vat_Lieu_Xay_Dung_Services.AutoMapper
             CreateMap<ProductCategoryViewModel, ProductCategory>()
                 .ConstructUsing(c => new ProductCategory(c.Name, c.ParentId, c.HomeOrder, c.Image, c.HomeFlag,
                     c.SortOrder, c.Status, c.SeoPageTitle, c.SeoAlias, c.SeoKeywords, c.SeoDescription));
+
+            CreateMap<PageViewModel, Page>()
+                .ConstructUsing(c => new Page(c.Id, c.Name, c.Alias, c.Content, c.Status));
 
             CreateMap<ProductViewModel, Product>()
                 .ConstructUsing(c => new Product(c.Id, c.Name, c.CategoryId, c.Image, c.Price,

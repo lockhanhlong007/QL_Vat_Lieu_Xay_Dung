@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using QL_Vat_Lieu_Xay_Dung_Data.Enums;
 using QL_Vat_Lieu_Xay_Dung_Services.Interfaces;
@@ -18,12 +17,10 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp.Api
     {
         private readonly IBillService _billService;
 
-        private readonly IWebHostEnvironment _webHostingEnvironment;
 
-        public BillApiController(IBillService billService, IWebHostEnvironment webHostingEnvironment)
+        public BillApiController(IBillService billService)
         {
             _billService = billService;
-            _webHostingEnvironment = webHostingEnvironment;
         }
 
         // GET: api/<BillController>

@@ -15,7 +15,7 @@ namespace QL_Vat_Lieu_Xay_Dung_Data_EF.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.0.3")
+                .HasAnnotation("ProductVersion", "3.1.7")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -512,6 +512,35 @@ namespace QL_Vat_Lieu_Xay_Dung_Data_EF.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Functions");
+                });
+
+            modelBuilder.Entity("QL_Vat_Lieu_Xay_Dung_Data.Entities.Page", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasMaxLength(255)
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Alias")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(256)")
+                        .HasMaxLength(256);
+
+                    b.Property<string>("Content")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(256)")
+                        .HasMaxLength(256);
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Pages");
                 });
 
             modelBuilder.Entity("QL_Vat_Lieu_Xay_Dung_Data.Entities.Permission", b =>

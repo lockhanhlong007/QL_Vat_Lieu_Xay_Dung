@@ -163,6 +163,7 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp
             services.AddTransient<IFeedbackService, FeedbackService>();
             services.AddTransient<IAnnouncementService, AnnouncementService>();
             services.AddTransient<IReportService, ReportService>();
+            services.AddTransient<IPageService, PageService>();
             services.AddSignalR();
         }
 

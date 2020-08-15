@@ -23,6 +23,8 @@ namespace QL_Vat_Lieu_Xay_Dung_Data_EF
 
         public DbSet<AppRole> AppRoles { get; set; }
 
+        public DbSet<Page> Pages { set; get; }
+
         public DbSet<Announcement> Announcements { set; get; }
 
         public DbSet<AnnouncementUser> AnnouncementUsers { set; get; }
@@ -69,6 +71,7 @@ namespace QL_Vat_Lieu_Xay_Dung_Data_EF
             builder.Entity<IdentityUserRole<Guid>>().ToTable("AppUserRoles").HasKey(c => new { c.RoleId, c.UserId });
             builder.Entity<IdentityUserToken<Guid>>().ToTable("AppUserTokens").HasKey(x => x.UserId);
 
+            builder.AddConfiguration(new PageConfiguration());
             builder.AddConfiguration(new TagConfiguration());
             builder.AddConfiguration(new ContactConfiguration());
             builder.AddConfiguration(new FunctionConfiguration());
