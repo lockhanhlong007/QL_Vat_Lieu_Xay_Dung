@@ -1,11 +1,13 @@
 ﻿@model List<ProductCategoryViewModel>
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
 <div id="mobile-menu">
     <ul>
         <li>
-            <a href="/" class="home1">Home</a>
+            <a href="/" class="home1">@Localizer["Home"]</a>
         </li>
         <li>
-            <a href="/san-pham">Products</a>
+            <a href="/san-pham">@Localizer["TitleProducts"]</a>
             <ul>
                 @foreach (var item in Model.Where(x => x.ParentId == null))
                 {

@@ -83,8 +83,9 @@ namespace QL_Vat_Lieu_Xay_Dung_Data_EF
 
                     new Function() {Id = "UTILITY",Name = "Tiện ích",ParentId = null,SortOrder = 4,Status = Status.Active,URL = "/",IconCss = "fa-clone"  },
                     new Function() {Id = "ANNOUNCEMENT",Name = "Thông báo",ParentId = "UTILITY",SortOrder = 1,Status = Status.Active,URL = "/admin/announcement/index",IconCss = "fa-clone"  },
-                    new Function() {Id = "SLIDE",Name = "Slide",ParentId = "UTILITY",SortOrder = 3,Status = Status.Active,URL = "/admin/slide/index",IconCss = "fa-clone"  },
-                    new Function() {Id = "BRAND",Name = "Thương Hiệu",ParentId = "UTILITY",SortOrder = 4,Status = Status.Active,URL = "/admin/brand/index",IconCss = "fa-amazon"  },
+                    new Function() {Id = "SLIDE",Name = "Slide",ParentId = "UTILITY",SortOrder = 2,Status = Status.Active,URL = "/admin/slide/index",IconCss = "fa-clone"  },
+                    new Function() {Id = "BRAND",Name = "Thương Hiệu",ParentId = "UTILITY",SortOrder = 3,Status = Status.Active,URL = "/admin/brand/index",IconCss = "fa-amazon"  },
+                    new Function() {Id = "PAGE",Name = "Page",ParentId = "UTILITY",SortOrder = 4,Status = Status.Active,URL = "/admin/page/index",IconCss = "fa-table"  },
 
                     new Function() {Id = "REPORT",Name = "Báo cáo",ParentId = null,SortOrder = 5,Status = Status.Active,URL = "/",IconCss = "fa-bar-chart-o"  },
                     new Function() {Id = "REVENUES",Name = "Báo cáo doanh thu",ParentId = "REPORT",SortOrder = 1,Status = Status.Active,URL = "/admin/report/revenues",IconCss = "fa-bar-chart-o"  },

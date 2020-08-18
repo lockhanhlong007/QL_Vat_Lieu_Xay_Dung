@@ -27,7 +27,13 @@ using QL_Vat_Lieu_Xay_Dung_WebApp.Helpers;
 using QL_Vat_Lieu_Xay_Dung_WebApp.Services;
 using QL_Vat_Lieu_Xay_Dung_WebApp.SignalR;
 using System;
+using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.Extensions.Options;
 
 namespace QL_Vat_Lieu_Xay_Dung_WebApp
 {
@@ -76,11 +82,30 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp
                         .WithOrigins("http://localhost:4000;http://localhost:44349;http://localhost:8080")
                         .AllowCredentials();
                 }));
-            services.AddControllersWithViews().AddRazorRuntimeCompilation().AddJsonOptions(options =>
-            {
-                options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
-                options.JsonSerializerOptions.PropertyNamingPolicy = null;
-            });
+            services.AddControllersWithViews(options =>
+                {
+                    options.CacheProfiles.Add("Default",
+                        new CacheProfile()
+                        {
+                            Duration = 60
+                        });
+                    options.CacheProfiles.Add("Never",
+                        new CacheProfile()
+                        {
+                            Location = ResponseCacheLocation.None,
+                            NoStore = true
+                        });
+                }).AddRazorRuntimeCompilation().AddJsonOptions(options =>
+                {
+                    options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
+                    options.JsonSerializerOptions.PropertyNamingPolicy = null;
+                }).AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix,
+                    opts => { opts.ResourcesPath = "Resources"; })
+                .AddDataAnnotationsLocalization();
+
+
+            services.AddLocalization(opts => { opts.ResourcesPath = "Resources"; });
+
             //Session
             services.AddSession(options =>
             {
@@ -148,6 +173,23 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp
                 // User settings
                 options.User.RequireUniqueEmail = true;
             });
+
+            services.Configure<RequestLocalizationOptions>(
+                opts =>
+                {
+                    var supportedCultures = new List<CultureInfo>
+                    {
+                        new CultureInfo("en-US"),
+                        new CultureInfo("vi-VN")
+                    };
+
+                    opts.DefaultRequestCulture = new RequestCulture("en-US");
+                    // Formatting numbers, dates, etc.
+                    opts.SupportedCultures = supportedCultures;
+                    // UI strings that we have localized.
+                    opts.SupportedUICultures = supportedCultures;
+                });
+
             //Services
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<IProductCategoryService, ProductCategoryService>();
@@ -163,6 +205,7 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp
             services.AddTransient<IFeedbackService, FeedbackService>();
             services.AddTransient<IAnnouncementService, AnnouncementService>();
             services.AddTransient<IReportService, ReportService>();
+            services.AddTransient<IPageService, PageService>();
             services.AddSignalR();
         }
 
@@ -189,6 +232,9 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp
             app.UseSession();
             app.UseCors("CorsPolicy");
             app.UseSwagger();
+
+            app.UseRequestLocalization(app.ApplicationServices.GetService<IOptions<RequestLocalizationOptions>>().Value);
+
             app.UseSwaggerUI(s =>
             {
                 s.SwaggerEndpoint("/swagger/v1/swagger.json", "My Project");

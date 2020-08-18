@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP3_1"
     ],
-    "languageVersion": "",
+    "languageVersion": "8.0",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -35,6 +35,8 @@
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.7",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.7",
           "Microsoft.AspNetCore.Identity.UI": "3.1.7",
+          "Microsoft.AspNetCore.Localization": "2.2.0",
+          "Microsoft.AspNetCore.Localization.Routing": "2.2.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.7",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.7",
           "Microsoft.AspNetCore.Session": "2.2.0",
@@ -102,7 +104,7 @@
           "Microsoft.AspNetCore.HttpsPolicy": "3.1.0.0",
           "Microsoft.AspNetCore.Identity.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Localization.Reference": "3.1.0.0",
-          "Microsoft.AspNetCore.Localization.Routing": "3.1.0.0",
+          "Microsoft.AspNetCore.Localization.Routing.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.ApiExplorer": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.Core.Reference": "3.1.0.0",
@@ -320,6 +322,14 @@
         },
         "runtime": {
           "QL_Vat_Lieu_Xay_Dung_WebApp.dll": {}
+        },
+        "resources": {
+          "en-US/QL_Vat_Lieu_Xay_Dung_WebApp.resources.dll": {
+            "locale": "en-US"
+          },
+          "vi-VN/QL_Vat_Lieu_Xay_Dung_WebApp.resources.dll": {
+            "locale": "vi-VN"
+          }
         },
         "compile": {
           "QL_Vat_Lieu_Xay_Dung_WebApp.dll": {}
@@ -701,12 +711,18 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Localization/1.0.5": {
+      "Microsoft.AspNetCore.Localization/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
-          "Microsoft.Extensions.Globalization.CultureInfoCache": "1.0.5",
-          "Microsoft.Extensions.Localization.Abstractions": "1.0.5",
+          "Microsoft.Extensions.Localization.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.7",
           "Microsoft.Extensions.Options": "3.1.7"
+        }
+      },
+      "Microsoft.AspNetCore.Localization.Routing/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Localization": "2.2.0",
+          "Microsoft.AspNetCore.Routing.Abstractions": "2.2.0"
         }
       },
       "Microsoft.AspNetCore.Metadata/3.1.7": {
@@ -1508,22 +1524,6 @@
           "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
         }
       },
-      "Microsoft.Extensions.Globalization.CultureInfoCache/1.0.5": {
-        "dependencies": {
-          "System.Collections.Concurrent": "4.3.0",
-          "System.Linq": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard1.1/Microsoft.Extensions.Globalization.CultureInfoCache.dll": {
-            "assemblyVersion": "1.0.5.0",
-            "fileVersion": "1.0.5.31018"
-          }
-        },
-        "compile": {
-          "lib/netstandard1.1/Microsoft.Extensions.Globalization.CultureInfoCache.dll": {}
-        }
-      },
       "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.7",
@@ -1568,19 +1568,13 @@
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.7",
-          "Microsoft.Extensions.Localization.Abstractions": "1.0.5",
+          "Microsoft.Extensions.Localization.Abstractions": "2.2.0",
           "Microsoft.Extensions.Options": "3.1.7",
           "System.Collections.Concurrent": "4.3.0",
           "System.Resources.Reader": "4.0.0"
         }
       },
-      "Microsoft.Extensions.Localization.Abstractions/1.0.5": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.7.0",
-          "System.Globalization": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0"
-        }
-      },
+      "Microsoft.Extensions.Localization.Abstractions/2.2.0": {},
       "Microsoft.Extensions.Logging/3.1.7": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "3.1.7",
@@ -2011,7 +2005,7 @@
       },
       "PaulMiami.AspNetCore.Mvc.Recaptcha/1.2.2": {
         "dependencies": {
-          "Microsoft.AspNetCore.Localization": "1.0.5",
+          "Microsoft.AspNetCore.Localization": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "1.0.6",
           "Microsoft.AspNetCore.Mvc.Core": "1.0.6",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "1.0.6",
@@ -3626,7 +3620,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.AspNetCore.Localization.Routing/3.1.0.0": {
+      "Microsoft.AspNetCore.Localization.Routing.Reference/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Localization.Routing.dll": {}
         },
@@ -5183,12 +5177,19 @@
       "path": "microsoft.aspnetcore.jsonpatch/3.1.7",
       "hashPath": "microsoft.aspnetcore.jsonpatch.3.1.7.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Localization/1.0.5": {
+    "Microsoft.AspNetCore.Localization/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7KY4IBYYBvjHEHo+qziua2YlBQW5eNoC4Z7PZYS06VeAWu7NV2tZ5ivcI/vywgP0UaHpfeOIgGHyW9KTbPbAbg==",
-      "path": "microsoft.aspnetcore.localization/1.0.5",
-      "hashPath": "microsoft.aspnetcore.localization.1.0.5.nupkg.sha512"
+      "sha512": "sha512-+PGX1mEfq19EVvskBBb9XBQrXZpZrh6hYhX0x3FkPTEqr+rDM2ZmsEwAAMRmzcidmlDM1/7cyDSU/WhkecU8tA==",
+      "path": "microsoft.aspnetcore.localization/2.2.0",
+      "hashPath": "microsoft.aspnetcore.localization.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Localization.Routing/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kjheDUpXWaGOH8bUQafFAkUvw74xoe0Y2hojgeYaAg5LKvaFUwupkz8wgyhfSbLdejxEQJ6PsA7Zq/AcdPoIUQ==",
+      "path": "microsoft.aspnetcore.localization.routing/2.2.0",
+      "hashPath": "microsoft.aspnetcore.localization.routing.2.2.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Metadata/3.1.7": {
       "type": "package",
@@ -5561,13 +5562,6 @@
       "path": "microsoft.extensions.filesystemglobbing/3.1.7",
       "hashPath": "microsoft.extensions.filesystemglobbing.3.1.7.nupkg.sha512"
     },
-    "Microsoft.Extensions.Globalization.CultureInfoCache/1.0.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/EZlIBwH+5Ra9qX9sttCwL35O38aZshdu4uYIwI1W+BVfgZU1dv44NMwQOg9ZvO5FDETyOb3e7JGuOBCeVZ51A==",
-      "path": "microsoft.extensions.globalization.cultureinfocache/1.0.5",
-      "hashPath": "microsoft.extensions.globalization.cultureinfocache.1.0.5.nupkg.sha512"
-    },
     "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -5596,12 +5590,12 @@
       "path": "microsoft.extensions.localization/1.0.5",
       "hashPath": "microsoft.extensions.localization.1.0.5.nupkg.sha512"
     },
-    "Microsoft.Extensions.Localization.Abstractions/1.0.5": {
+    "Microsoft.Extensions.Localization.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sNggc59PGYUwSHpkntH1jzCKHhg3ebbmhByCbGFsqIQgLtAQ31fZfMfVJzInbicA32R46TP/Q2a++NPfS0fLkg==",
-      "path": "microsoft.extensions.localization.abstractions/1.0.5",
-      "hashPath": "microsoft.extensions.localization.abstractions.1.0.5.nupkg.sha512"
+      "sha512": "sha512-FQzXG/lYR9UOM2zHpqsjTRpp3EghIYo3FCsQpfmtbp+glPaU0WXZfNmMjyqBRmMj1Sq93fPnC+G9zzYRauuRQA==",
+      "path": "microsoft.extensions.localization.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.localization.abstractions.2.2.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/3.1.7": {
       "type": "package",
@@ -6949,7 +6943,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Localization.Routing/3.1.0.0": {
+    "Microsoft.AspNetCore.Localization.Routing.Reference/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

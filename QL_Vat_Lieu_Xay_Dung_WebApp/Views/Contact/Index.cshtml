@@ -1,4 +1,6 @@
 ﻿@model PageContactViewModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
 @{
     ViewData["Title"] = "Contact";
 }
@@ -20,8 +22,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <ul>
-                    <li class="home"> <a title="Go to Home Page" href="/">Home</a><span>&raquo;</span></li>
-                    <li><strong>Contact Us</strong></li>
+                    <li class="home"> <a title="Go to Home Page" href="/">@Localizer["Home"]</a><span>&raquo;</span></li>
+                    <li><strong>@Localizer["Contact"]</strong></li>
                 </ul>
             </div>
         </div>
@@ -35,7 +37,7 @@
             <section class="col-main col-sm-12">
                 <div id="contact" class="page-content page-contact">
                     <div class="page-title">
-                        <h2>Thông Tin Liên Hệ</h2>
+                        <h2>@Localizer["Contact"]</h2>
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-6" id="contact_form_map">
@@ -52,17 +54,17 @@
                             @if (ViewData["Success"] != null)
                             {
 
-                                if ((bool)ViewData["Success"] == true)
+                                if ((bool)ViewData["Success"])
                                 {
                                     <div class="alert alert-success">
-                                        Thank you for your feedback. We are going to reply your order soon.
+                                        @Localizer["AlertSuccess"]
                                     </div>
 
                                 }
                                 else
                                 {
                                     <div class="alert alert-danger">
-                                        Have an error in send feedback progress. Please contact to administrator.
+                                        @Localizer["AlertDanger"]
                                     </div>
 
                                 }
@@ -72,24 +74,24 @@
                             {
                                 <div id="map" style="width:100%;height:500px;"></div>
                                 <form action="/contact.html" method="post">
-                                    <h3 class="page-subheading">Điền vào mẫu dưới đây</h3>
+                                    <h3 class="page-subheading">@Localizer["SubHeading"]</h3>
                                     <div asp-validation-summary="All" class="text-danger"></div>
                                     @Html.AntiForgeryToken()
                                     <div class="contact-form-box">
                                         <div class="form-selector">
-                                            <label>Name</label>
+                                            <label>@Localizer["Name"]</label>
                                             <input type="text" class="form-control input-sm" asp-for="Feedback.Name" />
                                         </div>
                                         <div class="form-selector">
-                                            <label>Email</label>
+                                            <label>@Localizer["Email"]</label>
                                             <input type="text" class="form-control input-sm" asp-for="Feedback.Email" />
                                         </div>
                                         <div class="form-selector">
-                                            <label>Message</label>
+                                            <label>@Localizer["Message"]</label>
                                             <textarea class="form-control input-sm" rows="10" asp-for="Feedback.Message"></textarea>
                                         </div>
                                         <div class="form-selector">
-                                            <button type="submit" class="button"><i class="icon-paper-plane icons"></i>&nbsp; <span>Send Message</span></button>
+                                            <button type="submit" class="button"><i class="icon-paper-plane icons"></i>&nbsp; <span>@Localizer["Send"]</span></button>
                                         </div>
                                     </div>
                                 </form>
