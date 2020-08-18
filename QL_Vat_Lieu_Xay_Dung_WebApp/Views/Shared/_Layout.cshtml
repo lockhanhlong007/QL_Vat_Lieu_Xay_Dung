@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Localization
+@{
+    var requestCulture = Context.Features.Get<IRequestCultureFeature>();
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Basic page needs -->
@@ -87,7 +91,7 @@
     <!-- client custom script-->
     @*<script src="~/assets/client-app/client-shared/client-customScript.js"></script>
         <script src="~/assets/client-app/client_controllers/base/base_index.js" ></script>*@
-
+    <script src="~/assets/client-app/client-shared/localize/resources.@(requestCulture.RequestCulture.Culture.Name).js"></script>
     <script src="~/assets/client-app/client-shared/client-customScript.min.js"></script>
     <script src="~/assets/client-app/client_controllers/base/base_index.min.js"></script>
 

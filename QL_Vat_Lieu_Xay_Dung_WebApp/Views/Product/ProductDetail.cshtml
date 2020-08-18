@@ -1,5 +1,7 @@
 ﻿@using QL_Vat_Lieu_Xay_Dung_Data.Enums
 @model QL_Vat_Lieu_Xay_Dung_WebApp.Models.ProductDetailViewModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
 @{
     ViewData["Title"] = Model.Product.SeoPageTitle;
     ViewData["MetaKeyword"] = Model.Product.SeoKeywords;
@@ -29,7 +31,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <ul>
-                    <li class="home"> <a title="Go to Home Page" href="/">Home</a><span>&raquo;</span></li>
+                    <li class="home"> <a title="Go to Home Page" href="/">@Localizer["Home"]</a><span>&raquo;</span></li>
                     <li class=""> <a title="Go to ProductCategory" href="/@productCategory.SeoAlias-c.@(productCategory.Id).html">@productCategory.Name</a><span>&raquo;</span></li>
                     <li><strong>@product.Name</strong></li>
                 </ul>
@@ -47,7 +49,7 @@
                     <div class="product-big-image col-xs-12 col-sm-5 col-lg-5 col-md-5">
                         @if (product.PromotionPrice.HasValue)
                         {
-                            <div class="icon-sale-label sale-left">Sale</div>
+                        <div class="icon-sale-label sale-left">@Localizer["Sale"]</div>
                         }
                         <div width="474" height="474" class="large-image">
                             <a href="@product.Image" class="cloud-zoom" id="magni_img" data-big="@product.Image" data-overlay="/img_ds/magnifying_glass.png" rel="useWrapper: false, adjustY:0, adjustX:20">
@@ -83,11 +85,11 @@
                             @if (product.PromotionPrice.HasValue)
                             {
                                 <p class="special-price">
-                                    <span class="price-label">Special Price</span>
+                                    <span class="price-label">@Localizer["SpecialPrice"]:</span>
                                     <span class="price">@string.Format(CultureInfo.GetCultureInfo("vi-VN"), "{0:C0}", product.PromotionPrice.Value)</span>
                                 </p>
                                 <p class="old-price">
-                                    <span class="price-label">Regular Price:</span>
+                                    <span class="price-label">@Localizer["Price"]:</span>
                                     <span class="price">@string.Format(CultureInfo.GetCultureInfo("vi-VN"), "{0:C0}", product.Price)</span>
                                 </p>
 
@@ -95,19 +97,19 @@
                             else
                             {
                                 <p class="special-price">
-                                    <span class="price-label">Special Price</span>
+                                    <span class="price-label">@Localizer["SpecialPrice"]:</span>
                                     <span class="price">@string.Format(CultureInfo.GetCultureInfo("vi-VN"), "{0:C0}", product.Price)</span>
                                 </p>
                             }
                         </div>
                         <div class="ratings">
-                            <p class="rating-links"> View Count <span class="separator">:</span> @Model.ViewCount </p>
-                            <p id="available_p" class="availability @(Model.CheckAvailability == Status.Active ? "in-stock" : "out-of-stock") pull-right">Availability: <span id="available">@Model.CheckAvailability</span></p>
+                            <p class="rating-links"> @Localizer["ViewCount"] <span class="separator">:</span> @Model.ViewCount </p>
+                            <p id="available_p" class="availability @(Model.CheckAvailability == Status.Active ? "in-stock" : "out-of-stock") pull-right">@Localizer["Availability"]: <span id="available">@Model.CheckAvailability</span></p>
                         </div>
                         @if (!string.IsNullOrEmpty(@product.Brand.Name))
                         {
                             <div class="short-description">
-                                <h2>Thương Hiệu</h2>
+                                <h2>@Localizer["Brand"]:</h2>
                                 <a href="/@product.Brand.SeoAlias-b.@(product.Brand.Id).html">
                                     <p> @product.Brand.Name</p>
                                 </a>
@@ -116,13 +118,13 @@
                         @if (!string.IsNullOrEmpty(@product.Description))
                         {
                             <div class="short-description">
-                                <h2>Mô Tả</h2>
+                                <h2>@Localizer["Description"]</h2>
                                 @Html.Raw(product.Description)
                             </div>
                         }
 
                         <div class="size-area">
-                            <h2 class="saider-bar-title">Size</h2>
+                            <h2 class="saider-bar-title">@Localizer["Size"]</h2>
                             <div class="size">
                                 <select asp-items="Model.Sizes" data-id="@Model.Product.Id" id="ddlSizeId"></select>
                             </div>
@@ -130,7 +132,7 @@
                         <div class="product-variation">
                             <form action="#" method="post">
                                 <div class="cart-plus-minus">
-                                    <label for="qty">Quantity:</label>
+                                    <label for="qty">@Localizer["Quantity"]:</label>
                                     <div class="numbers-row">
                                         <div onClick="var result = document.getElementById('txtQuantity');var qty = result.value;if (qty > 1 && !isNaN( qty )) result.value--;return false;" class="dec qtybutton">
                                             <i class="fa fa-minus">&nbsp;</i>
@@ -141,7 +143,7 @@
                                 </div>
                                 @if (Model.CheckAvailability == Status.Active)
                                 {
-                                    <button class="button pro-add-to-cart" id="btnAddToCart" data-id="@Model.Product.Id" title="Add to Cart" type="button"><span><i class="fa fa-shopping-basket"></i> Add to Cart</span></button>
+                                    <button class="button pro-add-to-cart" id="btnAddToCart" data-id="@Model.Product.Id" title="Add to Cart" type="button"><span><i class="fa fa-shopping-basket"></i> @Localizer["AddToCart"]</span></button>
 
                                 }
                             </form>
@@ -149,7 +151,7 @@
                         @if (Model.Tags.Count > 0)
                         {
                             <div class="pro-tags">
-                                <div class="pro-tags-title">Tags:</div>
+                                <div class="pro-tags-title">@Localizer["Tags"]:</div>
                                 @foreach (var tag in Model.Tags)
                                 {
                                     <a class="but_tag" href="/tag-@(tag.Id).html">@tag.Id</a>
@@ -167,7 +169,7 @@
                     <div class="col-xs-12">
                         <div class="product-tab-inner">
                             <ul id="product-detail-tab" class="nav nav-tabs product-tabs">
-                                <li class="active"> <a href="#description" data-toggle="tab"> Description </a> </li>
+                                <li class="active"> <a href="#description" data-toggle="tab"> @Localizer["Description"] </a> </li>
                             </ul>
                             <div id="productTabContent" class="tab-content">
                                 <div class="tab-pane fade in active" id="description">
@@ -194,7 +196,7 @@
             <div class="col-xs-12">
                 <div class="related-product-area">
                     <div class="page-header">
-                        <h2>Related Products</h2>
+                        <h2>@Localizer["RelatedProducts"]</h2>
                     </div>
                     <div class="related-products-pro">
                         <div class="slider-items-products">
@@ -242,7 +244,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="page-header">
-                        <h2>UpSell Products</h2>
+                        <h2>@Localizer["UpSellProducts"]</h2>
                     </div>
                     <div class="slider-items-products">
                         <div id="upsell-product-slider" class="product-flexslider hidden-buttons">
@@ -252,8 +254,8 @@
                                     <div class="product-item">
                                         <div class="item-inner">
                                             <div class="product-thumbnail">
-                                                <div class="icon-sale-label sale-left">Sale</div>
-                                                <div class="icon-new-label new-right">New</div>
+                                                <div class="icon-sale-label sale-left">@Localizer["Sale"]</div>
+                                                <div class="icon-new-label new-right">@Localizer["New"]</div>
                                                 <div class="pr-img-area">
                                                     <a title="@item.Name" href="/@item.SeoAlias-p.@(item.Id).html">
                                                         <figure> <img class="first-img" width="260" height="260" src="@item.Image" alt="HTML template"> <img class="hover-img" width="260" height="260" src="@item.Image" alt="HTML template"></figure>
@@ -266,9 +268,6 @@
                                                     <div class="item-content">
                                                         <div class="item-price">
                                                             <div class="price-box"> <span class="regular-price"> <span class="price">@string.Format(CultureInfo.GetCultureInfo("vi-VN"), "{0:C0}", item.PromotionPrice.Value)</span> </span> </div>
-                                                        </div>
-                                                        <div class="pro-action">
-                                                            <button type="button" id="btnAddToCart" class="add-to-cart"><span>Thêm Vào Giỏ</span> </button>
                                                         </div>
                                                     </div>
                                                 </div>

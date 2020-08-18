@@ -14,7 +14,7 @@
                     productId: id
                 },
                 success: function () {
-                    client_app.notify("Xóa Thành Công", "Thành Công");
+                    client_app.notify(resources["RemoveCartOK"], "Thành Công");
                     loadHeaderCart();
                 }
             });

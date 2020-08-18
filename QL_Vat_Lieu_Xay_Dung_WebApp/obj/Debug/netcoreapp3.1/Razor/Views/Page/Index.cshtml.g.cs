@@ -76,7 +76,7 @@ using System.Globalization;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"61a16fd15b7b36c2e73fbfeadf3cff8a0f6be12e", @"/Views/Page/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"47f90c78da82dda6684e972a96cce09822da98ed", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e7c6c625a70cb7131686aad2eeec821a61608648", @"/Views/_ViewImports.cshtml")]
     public class Views_Page_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<QL_Vat_Lieu_Xay_Dung_Services.ViewModels.Common.PageViewModel>
     {
         #pragma warning disable 1998

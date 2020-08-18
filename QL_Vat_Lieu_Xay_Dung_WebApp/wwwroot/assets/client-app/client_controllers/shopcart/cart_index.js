@@ -15,7 +15,7 @@
                     productId: id
                 },
                 success: function () {
-                    client_app.notify("Xóa Thành Công.", "Thành Công");
+                    client_app.notify(resources["AddCartOK"], "Thành Công");
                     loadHeaderCart();
                     loadData();
                 }
@@ -34,13 +34,13 @@
                         quantity: q
                     },
                     success: function () {
-                        client_app.notify("Cập Nhật Thành Công", "Thành Công");
+                        client_app.notify(resources["UpdateCartOK"], "Thành Công");
                         loadHeaderCart();
                         loadData();
                     }
                 });
             } else {
-                client_app.notify("Số Lượng Này Không Tồn Tại", "error");
+                client_app.notify(resources["QuantityCartOK"], "error");
             }
 
         });
@@ -52,7 +52,7 @@
                 url: "/ShopCart/ClearCart",
                 type: "post",
                 success: function () {
-                    client_app.notify("Đã Xóa Sạch Sản Phẩm Trong Giỏ Hàng", "Thành Công");
+                    client_app.notify(resources["RemoveAllCartOK"], "Thành Công");
                     loadHeaderCart();
                     loadData();
                 }
@@ -93,7 +93,7 @@
                 if (render !== "")
                     $("#table-cart-content").html(render);
                 else
-                    $("#table-cart-content").html("Không Có Sản Phẩm Trong Giỏ Hàng");
+                    $("#table-cart-content").html(resources["NoProduct"]);
             }
         });
         return false;

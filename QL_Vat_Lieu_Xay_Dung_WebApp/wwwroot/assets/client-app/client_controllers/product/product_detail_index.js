@@ -53,7 +53,7 @@
                 },
                 success: function () {
                     loadHeaderCart();
-                    client_app.notify("Thêm Thành Công", "Thành Công");
+                    client_app.notify(resources["AddCartOK"], "Thành Công");
                 }
             });
         });

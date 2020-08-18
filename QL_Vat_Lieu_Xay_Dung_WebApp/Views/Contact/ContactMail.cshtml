@@ -1,19 +1,21 @@
 ﻿@model QL_Vat_Lieu_Xay_Dung_Services.ViewModels.Common.FeedbackViewModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
 <table>
     <tr>
-        <td>Name: </td>
+        <td>@Localizer["Name"]: </td>
         <td>@Model.Name</td>
     </tr>
     <tr>
-        <td>Date: </td>
+        <td>@Localizer["Date"]: </td>
         <td>@Model.DateCreated</td>
     </tr>
     <tr>
-        <td>Email: </td>
+        <td>@Localizer["Email"]: </td>
         <td>@Model.Email</td>
     </tr>
     <tr>
-        <td>Message: </td>
+        <td>@Localizer["Message"]: </td>
         <td>@Model.Message</td>
     </tr>
 </table>

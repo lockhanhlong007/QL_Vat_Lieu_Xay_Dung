@@ -1,4 +1,6 @@
 ﻿@model QL_Vat_Lieu_Xay_Dung_Utilities.Dtos.PagedResultBase
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
 @{
     var urlTemplate = Url.Action() + "?page={0}";
     var request = ViewContext.HttpContext.Request;
@@ -11,13 +13,13 @@
     @if (@Model.RowCount > 0)
     {
         <div class="col-md-4 col-sm-4 items-info">
-            Từ @Model.FirstRowOnPage đến @Model.LastRowOnPage của @Model.RowCount sản phẩm
+            @Localizer["from"] @Model.FirstRowOnPage @Localizer["to"] @Model.LastRowOnPage @Localizer["of"] @Model.RowCount @Localizer["products"]
         </div>
     }
     else
     {
         <div class="col-md-4 col-sm-4 items-info">
-            @Model.RowCount có sản phẩm nào cả
+            @Model.RowCount @Localizer["NoProducts"]
         </div>
     }
     <div class="col-md-8 col-sm-8">
