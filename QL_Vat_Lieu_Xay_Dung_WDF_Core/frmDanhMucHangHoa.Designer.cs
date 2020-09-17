@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            DevExpress.Utils.Layout.TablePanelColumn tablePanelColumn1 = new DevExpress.Utils.Layout.TablePanelColumn();
+            DevExpress.Utils.Layout.TablePanelRow tablePanelRow1 = new DevExpress.Utils.Layout.TablePanelRow();
+            DevExpress.Utils.Layout.TablePanelRow tablePanelRow2 = new DevExpress.Utils.Layout.TablePanelRow();
+            DevExpress.Utils.Layout.TablePanelRow tablePanelRow3 = new DevExpress.Utils.Layout.TablePanelRow();
             this.txtTenDanhMuc = new DevExpress.XtraEditors.TextEdit();
             this.lblTenDanhMuc = new DevExpress.XtraEditors.LabelControl();
             this.lblHinhAnh = new DevExpress.XtraEditors.LabelControl();
@@ -43,17 +47,15 @@
             this.gv_DanhMuc = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.repositoryItemHinhAnh = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cbDanhMucCha = new System.Windows.Forms.ComboBox();
             this.ptrHinhAnh = new DevExpress.XtraEditors.PictureEdit();
             this.chkTrangThai = new DevExpress.XtraEditors.CheckButton();
             this.lblDanhMucCha = new DevExpress.XtraEditors.LabelControl();
             this.xtraOpenFileDialog1 = new DevExpress.XtraEditors.XtraOpenFileDialog(this.components);
             this.xtraSaveFileDialog1 = new DevExpress.XtraEditors.XtraSaveFileDialog(this.components);
-            this.cbDanhMucCha = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.txtTenDanhMuc.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel1)).BeginInit();
-            this.stackPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tablePanel1)).BeginInit();
-            this.tablePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datagv_DanhMuc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gv_DanhMuc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemHinhAnh)).BeginInit();
@@ -65,7 +67,10 @@
             // 
             this.txtTenDanhMuc.Location = new System.Drawing.Point(177, 29);
             this.txtTenDanhMuc.Name = "txtTenDanhMuc";
-            this.txtTenDanhMuc.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // 
+            // 
+            this.txtTenDanhMuc.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtTenDanhMuc.Properties.Appearance.Options.UseFont = true;
             this.txtTenDanhMuc.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
             this.txtTenDanhMuc.Size = new System.Drawing.Size(299, 30);
@@ -73,7 +78,7 @@
             // 
             // lblTenDanhMuc
             // 
-            this.lblTenDanhMuc.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenDanhMuc.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblTenDanhMuc.Appearance.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblTenDanhMuc.Appearance.Options.UseFont = true;
             this.lblTenDanhMuc.Appearance.Options.UseForeColor = true;
@@ -85,7 +90,7 @@
             // 
             // lblHinhAnh
             // 
-            this.lblHinhAnh.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHinhAnh.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblHinhAnh.Appearance.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblHinhAnh.Appearance.Options.UseFont = true;
             this.lblHinhAnh.Appearance.Options.UseForeColor = true;
@@ -97,7 +102,7 @@
             // 
             // lblTrangThai
             // 
-            this.lblTrangThai.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrangThai.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblTrangThai.Appearance.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblTrangThai.Appearance.Options.UseFont = true;
             this.lblTrangThai.Appearance.Options.UseForeColor = true;
@@ -109,14 +114,13 @@
             // 
             // btnThem
             // 
-            this.btnThem.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThem.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnThem.Appearance.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnThem.Appearance.Options.UseFont = true;
             this.btnThem.Appearance.Options.UseForeColor = true;
             this.btnThem.Appearance.Options.UseTextOptions = true;
             this.btnThem.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.btnThem.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            this.btnThem.ImageOptions.SvgImage = global::QL_Vat_Lieu_Xay_Dung_WDF_Core.Properties.Resources.addparameter;
             this.btnThem.Location = new System.Drawing.Point(20, 6);
             this.btnThem.Margin = new System.Windows.Forms.Padding(20, 3, 20, 3);
             this.btnThem.Name = "btnThem";
@@ -128,13 +132,12 @@
             // 
             // btnSua
             // 
-            this.btnSua.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSua.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSua.Appearance.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnSua.Appearance.Options.UseFont = true;
             this.btnSua.Appearance.Options.UseForeColor = true;
             this.btnSua.Appearance.Options.UseTextOptions = true;
             this.btnSua.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.btnSua.ImageOptions.Image = global::QL_Vat_Lieu_Xay_Dung_WDF_Core.Properties.Resources.edittask_32x32;
             this.btnSua.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
             this.btnSua.Location = new System.Drawing.Point(297, 8);
             this.btnSua.Margin = new System.Windows.Forms.Padding(20, 3, 20, 3);
@@ -147,13 +150,12 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoa.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnXoa.Appearance.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnXoa.Appearance.Options.UseFont = true;
             this.btnXoa.Appearance.Options.UseForeColor = true;
             this.btnXoa.Appearance.Options.UseTextOptions = true;
             this.btnXoa.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.btnXoa.ImageOptions.Image = global::QL_Vat_Lieu_Xay_Dung_WDF_Core.Properties.Resources.removepivotfield_32x32;
             this.btnXoa.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
             this.btnXoa.Location = new System.Drawing.Point(603, 6);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(20, 3, 20, 3);
@@ -182,13 +184,12 @@
             // 
             // btnBack
             // 
-            this.btnBack.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnBack.Appearance.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnBack.Appearance.Options.UseFont = true;
             this.btnBack.Appearance.Options.UseForeColor = true;
             this.btnBack.Appearance.Options.UseTextOptions = true;
             this.btnBack.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.btnBack.ImageOptions.Image = global::QL_Vat_Lieu_Xay_Dung_WDF_Core.Properties.Resources.backward_32x32;
             this.btnBack.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
             this.btnBack.Location = new System.Drawing.Point(890, 6);
             this.btnBack.Margin = new System.Windows.Forms.Padding(20, 3, 20, 3);
@@ -203,8 +204,10 @@
             // 
             this.tablePanel1.Appearance.BackColor = System.Drawing.Color.White;
             this.tablePanel1.Appearance.Options.UseBackColor = true;
+            tablePanelColumn1.Style = DevExpress.Utils.Layout.TablePanelEntityStyle.Relative;
+            tablePanelColumn1.Width = 55F;
             this.tablePanel1.Columns.AddRange(new DevExpress.Utils.Layout.TablePanelColumn[] {
-            new DevExpress.Utils.Layout.TablePanelColumn(DevExpress.Utils.Layout.TablePanelEntityStyle.Relative, 55F)});
+            tablePanelColumn1});
             this.tablePanel1.Controls.Add(this.datagv_DanhMuc);
             this.tablePanel1.Controls.Add(this.stackPanel1);
             this.tablePanel1.Controls.Add(this.panel1);
@@ -212,10 +215,16 @@
             this.tablePanel1.Location = new System.Drawing.Point(0, 0);
             this.tablePanel1.Margin = new System.Windows.Forms.Padding(15);
             this.tablePanel1.Name = "tablePanel1";
+            tablePanelRow1.Height = 43.04F;
+            tablePanelRow1.Style = DevExpress.Utils.Layout.TablePanelEntityStyle.Relative;
+            tablePanelRow2.Height = 110F;
+            tablePanelRow2.Style = DevExpress.Utils.Layout.TablePanelEntityStyle.Relative;
+            tablePanelRow3.Height = 20F;
+            tablePanelRow3.Style = DevExpress.Utils.Layout.TablePanelEntityStyle.Relative;
             this.tablePanel1.Rows.AddRange(new DevExpress.Utils.Layout.TablePanelRow[] {
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.Relative, 43.04F),
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.Relative, 110F),
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.Relative, 20F)});
+            tablePanelRow1,
+            tablePanelRow2,
+            tablePanelRow3});
             this.tablePanel1.Size = new System.Drawing.Size(1259, 755);
             this.tablePanel1.TabIndex = 1;
             // 
@@ -265,10 +274,22 @@
             this.panel1.Size = new System.Drawing.Size(1259, 188);
             this.panel1.TabIndex = 0;
             // 
+            // cbDanhMucCha
+            // 
+            this.cbDanhMucCha.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cbDanhMucCha.FormattingEnabled = true;
+            this.cbDanhMucCha.Location = new System.Drawing.Point(177, 80);
+            this.cbDanhMucCha.Name = "cbDanhMucCha";
+            this.cbDanhMucCha.Size = new System.Drawing.Size(299, 29);
+            this.cbDanhMucCha.TabIndex = 15;
+            // 
             // ptrHinhAnh
             // 
             this.ptrHinhAnh.Location = new System.Drawing.Point(642, 23);
             this.ptrHinhAnh.Name = "ptrHinhAnh";
+            // 
+            // 
+            // 
             this.ptrHinhAnh.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.ptrHinhAnh.Size = new System.Drawing.Size(240, 148);
             this.ptrHinhAnh.TabIndex = 14;
@@ -278,7 +299,7 @@
             // 
             this.chkTrangThai.Appearance.BackColor = System.Drawing.Color.DodgerBlue;
             this.chkTrangThai.Appearance.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.chkTrangThai.Appearance.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkTrangThai.Appearance.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.chkTrangThai.Appearance.ForeColor = System.Drawing.Color.AliceBlue;
             this.chkTrangThai.Appearance.Options.UseBackColor = true;
             this.chkTrangThai.Appearance.Options.UseFont = true;
@@ -292,7 +313,7 @@
             // 
             // lblDanhMucCha
             // 
-            this.lblDanhMucCha.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDanhMucCha.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblDanhMucCha.Appearance.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblDanhMucCha.Appearance.Options.UseFont = true;
             this.lblDanhMucCha.Appearance.Options.UseForeColor = true;
@@ -310,15 +331,6 @@
             // 
             this.xtraSaveFileDialog1.FileName = "xtraSaveFileDialog1";
             // 
-            // cbDanhMucCha
-            // 
-            this.cbDanhMucCha.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbDanhMucCha.FormattingEnabled = true;
-            this.cbDanhMucCha.Location = new System.Drawing.Point(177, 80);
-            this.cbDanhMucCha.Name = "cbDanhMucCha";
-            this.cbDanhMucCha.Size = new System.Drawing.Size(299, 29);
-            this.cbDanhMucCha.TabIndex = 15;
-            // 
             // frmDanhMucHangHoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -330,9 +342,7 @@
             this.Load += new System.EventHandler(this.frmDanhMucHangHoa_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtTenDanhMuc.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel1)).EndInit();
-            this.stackPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tablePanel1)).EndInit();
-            this.tablePanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.datagv_DanhMuc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gv_DanhMuc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemHinhAnh)).EndInit();

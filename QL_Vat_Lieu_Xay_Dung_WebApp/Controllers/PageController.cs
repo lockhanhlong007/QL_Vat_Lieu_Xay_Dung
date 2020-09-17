@@ -11,7 +11,7 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp.Controllers
         {
             _pageService = pageService;
         }
-
+        [ApiExplorerSettings(IgnoreApi = true)]
         [Route("page/{alias}.html", Name = "Page")]
         public IActionResult Index(string alias)
         {
