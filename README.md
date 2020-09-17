@@ -21,7 +21,7 @@ WinForms
 
 Web API
 
-- Integrate JSon Web Token (JWT) in API.
+- Integrate Json Web Token (JWT) in API.
 - Integrate Swagger to Manage API.
 
 Repository Ghi Lại Quá Trình Hoàn Thành Đồ Án Môn Học Thầy Danh:
