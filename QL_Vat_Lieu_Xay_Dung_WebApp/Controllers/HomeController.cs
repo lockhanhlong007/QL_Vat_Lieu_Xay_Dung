@@ -25,6 +25,7 @@ namespace QL_Vat_Lieu_Xay_Dung_WebApp.Controllers
             _slideService = slideService;
             _localizer = localizer;
         }
+        [ApiExplorerSettings(IgnoreApi = true)]
         [HttpPost]
         public IActionResult SetLanguage(string culture, string returnUrl)
         {
