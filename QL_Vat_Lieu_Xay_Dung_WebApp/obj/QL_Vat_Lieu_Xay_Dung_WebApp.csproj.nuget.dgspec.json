@@ -636,7 +636,7 @@
             },
             "RestSharp": {
               "target": "Package",
-              "version": "[106.11.4, )"
+              "version": "[106.11.5, )"
             },
             "Serilog.Extensions.Logging.File": {
               "target": "Package",
