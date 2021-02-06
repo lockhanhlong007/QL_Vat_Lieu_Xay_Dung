@@ -13,22 +13,23 @@
         "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
         "outputPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -85,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -98,22 +100,23 @@
         "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
         "outputPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj": {
                 "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj"
@@ -129,6 +132,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -172,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -185,22 +189,23 @@
         "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
         "outputPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj": {
                 "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj"
@@ -222,6 +227,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -265,7 +271,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -278,22 +284,23 @@
         "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
         "outputPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -305,6 +312,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -320,7 +328,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -333,28 +341,32 @@
         "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
         "outputPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj": {
                 "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data\\QL_Vat_Lieu_Xay_Dung_Data.csproj"
               },
               "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj": {
                 "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Data_EF\\QL_Vat_Lieu_Xay_Dung_Data_EF.csproj"
+              },
+              "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj": {
+                "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Infrastructure\\QL_Vat_Lieu_Xay_Dung_Infrastructure.csproj"
               },
               "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj": {
                 "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\QL_Vat_Lieu_Xay_Dung_Utilities.csproj"
@@ -370,6 +382,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -399,7 +412,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -412,22 +425,23 @@
         "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
         "outputPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Utilities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -439,6 +453,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -454,7 +469,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -467,22 +482,23 @@
         "packagesPath": "C:\\Users\\lockh\\.nuget\\packages\\",
         "outputPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_WebApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\lockh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/R3Aqgd8FAnIZeZM7MYfZCD4bXsfhtUCZ2e3YrQjFCJk65axLUF/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj": {
                 "projectPath": "D:\\DoAnMonHoc\\QL_Vat_Lieu_Xay_Dung\\QL_Vat_Lieu_Xay_Dung_Dapper\\QL_Vat_Lieu_Xay_Dung_Dapper.csproj"
@@ -513,6 +529,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -693,7 +710,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

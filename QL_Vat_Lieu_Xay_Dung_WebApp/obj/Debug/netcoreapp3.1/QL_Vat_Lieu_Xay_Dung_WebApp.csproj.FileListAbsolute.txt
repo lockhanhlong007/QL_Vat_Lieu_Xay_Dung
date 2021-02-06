@@ -1,9 +1,6 @@
 D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp\bin\Debug\netcoreapp3.1\appsettings.json
 D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp\bin\Debug\netcoreapp3.1\libman.json
-D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
-D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
 D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp\bin\Debug\netcoreapp3.1\QL_Vat_Lieu_Xay_Dung_WebApp.StaticWebAssets.xml
 D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp\bin\Debug\netcoreapp3.1\QL_Vat_Lieu_Xay_Dung_WebApp.exe
 D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp\bin\Debug\netcoreapp3.1\wwwroot\img_ds\brand1.png
@@ -680,3 +677,4 @@ D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp\obj\Debug\netcore
 D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp\obj\Debug\netcoreapp3.1\QL_Vat_Lieu_Xay_Dung_WebApp.Resources.Views.Account.ResetPassword.vi-VN.resources
 D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp\obj\Debug\netcoreapp3.1\QL_Vat_Lieu_Xay_Dung_WebApp.Resources.Views.Account.ResetPasswordConfirmation.en-US.resources
 D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp\obj\Debug\netcoreapp3.1\QL_Vat_Lieu_Xay_Dung_WebApp.Resources.Views.Account.ResetPasswordConfirmation.vi-VN.resources
+D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp\obj\Debug\netcoreapp3.1\scopedcss\bundle\QL_Vat_Lieu_Xay_Dung_WebApp.styles.css

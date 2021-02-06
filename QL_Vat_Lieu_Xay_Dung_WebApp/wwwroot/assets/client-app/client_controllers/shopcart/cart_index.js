@@ -63,9 +63,6 @@
         $("#headerCart").load("/Home/RefreshCart");
     }
 
-
-
-
     function loadData() {
         $.ajax({
             url: "/ShopCart/GetCart",

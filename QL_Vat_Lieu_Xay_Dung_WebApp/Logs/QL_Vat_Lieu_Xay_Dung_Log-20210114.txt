@@ -1,0 +1,8 @@
+2021-01-14T00:50:51.6153252+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-14T00:50:51.6337358+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-14T00:50:51.6359827+07:00  [INF] Content root path: "D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp" (b5d60022)
+2021-01-14T00:50:51.6788321+07:00 8000009d-0001-fc00-b63f-84710c7967bb [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2021-01-14T00:56:42.2451690+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-14T00:56:42.2565245+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-14T00:56:42.2690343+07:00  [INF] Content root path: "D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_WebApp" (b5d60022)
+2021-01-14T00:56:42.3103219+07:00 8000010c-0003-fd00-b63f-84710c7967bb [WRN] Failed to determine the https port for redirect. (ca76cc21)
