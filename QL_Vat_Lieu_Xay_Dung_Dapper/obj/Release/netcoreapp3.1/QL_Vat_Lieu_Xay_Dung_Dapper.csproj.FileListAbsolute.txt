@@ -1,9 +1,0 @@
-D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_Dapper\bin\Release\netcoreapp3.1\QL_Vat_Lieu_Xay_Dung_Dapper.deps.json
-D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_Dapper\bin\Release\netcoreapp3.1\QL_Vat_Lieu_Xay_Dung_Dapper.dll
-D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_Dapper\bin\Release\netcoreapp3.1\QL_Vat_Lieu_Xay_Dung_Dapper.pdb
-D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_Dapper\obj\Release\netcoreapp3.1\QL_Vat_Lieu_Xay_Dung_Dapper.csprojAssemblyReference.cache
-D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_Dapper\obj\Release\netcoreapp3.1\QL_Vat_Lieu_Xay_Dung_Dapper.AssemblyInfoInputs.cache
-D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_Dapper\obj\Release\netcoreapp3.1\QL_Vat_Lieu_Xay_Dung_Dapper.AssemblyInfo.cs
-D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_Dapper\obj\Release\netcoreapp3.1\QL_Vat_Lieu_Xay_Dung_Dapper.csproj.CoreCompileInputs.cache
-D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_Dapper\obj\Release\netcoreapp3.1\QL_Vat_Lieu_Xay_Dung_Dapper.dll
-D:\DoAnMonHoc\QL_Vat_Lieu_Xay_Dung\QL_Vat_Lieu_Xay_Dung_Dapper\obj\Release\netcoreapp3.1\QL_Vat_Lieu_Xay_Dung_Dapper.pdb
